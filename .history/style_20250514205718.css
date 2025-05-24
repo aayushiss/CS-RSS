@@ -1,0 +1,38 @@
+.custom-navbar {
+    background-color: darkblue;
+}
+
+.custom-navbar .navbar-brand {
+    color: azure;
+}
+
+.navbar-space {
+    margin-top: 50px;
+}
+
+.second-navbar .navbar-brand{
+    color: black;
+}
+
+.custom-card{
+    height: 25vh;
+}
+
+.custom-card .card-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-fluid .card{
+    padding: 50px;
+}
+.container-fluid .card-title{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: xx-large;
+}
+
+.container-fluid .card mb-3 .card-title{
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}

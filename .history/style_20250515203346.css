@@ -1,0 +1,43 @@
+.custom-navbar {
+    background-color: darkblue;
+}
+
+.custom-navbar .navbar-brand {
+    color: azure;
+}
+
+.navbar-space {
+    margin-top: 50px;
+}
+
+.second-navbar .navbar-brand{
+    color: black;
+}
+
+.custom-card{
+    height: 25vh;
+}
+
+.custom-card .card-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-fluid .card{
+    padding: 10px;
+}
+.container-fluid .card-title{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: xx-large;
+}
+
+.container-fluid .col-md-8 .card-title{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+
+.container .col .li{
+    color: white;
+    text-decoration: none;
+}

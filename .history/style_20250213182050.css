@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: darkblue;
+}
+
+.custom-navbar .navbar-brand {
+    color: azure;
+}
+
+.navbar-space {
+    margin-top: 50px;
+}
+
+.second-navbar .navbar-brand{
+    color: black;
+}
+
+.custom-card{
+    height: 25vh;
+}
+
+.custom-card .card-img{
+    height: 100%;
+    object-fit: cover;
+}
