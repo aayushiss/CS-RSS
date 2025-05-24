@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const { Pool } = require('pg');
 
 const app = express();
-const PORT = 5050;
+const PORT = process.env.PORT || 5050;
 
 // Middleware
 app.use(cors()); // Allow all origins (for now)
