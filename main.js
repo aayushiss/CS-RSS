@@ -8,7 +8,7 @@ document.getElementById("form").addEventListener("submit", async function(e) {
     const query = document.getElementById("query").value;
 
     try {
-      const response = await fetch("http://localhost:5050/submit-form", {
+      const response = await fetch("https://noisy-lucia-aayushiss-org-1509952b.koyeb.app/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
