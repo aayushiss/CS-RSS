@@ -14,11 +14,11 @@ app.options('*', cors()); // Handle preflight requests
 
 // PostgreSQL connection pool
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'RSS',
-  password: 'a13022004A',
-  port: 5432, // default port
+  user: process.env.PGUSER,
+  host: process.env.PGHOST,
+  database: process.env.PGDATABASE,
+  password: process.env.PGPASSWORD,
+  port: process.env.PGPORT || 5432,
 });
 
 // Test DB connection
